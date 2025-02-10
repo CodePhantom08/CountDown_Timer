@@ -10,8 +10,11 @@ Display the remaining time in real-time.
 
 # Technologies
 Backend: Flask (Python)
+
 Frontend: HTML, CSS, JavaScript
+
 Concurrency: Python's threading library for the countdown timer
+
 API: Flask routes for starting, stopping, and fetching the timer status
 
 # Setup Instructions
