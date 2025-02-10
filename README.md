@@ -1,34 +1,47 @@
-# CountDown_Timer
+CountDown_Timer
+This is a simple countdown timer application built with Flask (Python), HTML, CSS, and JavaScript. It allows users to set a timer, start it, and stop it through a web interface.
 
-This is a simple timer application built with Flask (Python), HTML, CSS, and JavaScript. The app allows users to set a countdown timer, start it, and stop it using a web interface.
+Features
+Set the timer duration in seconds.
+Start the countdown timer.
+Stop the countdown timer at any time.
+Display the remaining time in real-time.
+Technologies Used
+Backend: Flask (Python)
+Frontend: HTML, CSS, JavaScript
+Concurrency: Python's threading library for the countdown timer
+API: Flask routes for starting, stopping, and fetching the timer status
+Setup Instructions
+Prerequisites
+Before you begin, ensure you have the following installed:
 
-## Features
-- Set the timer duration in seconds.
-- Start the countdown timer.
-- Stop the countdown timer at any time.
-- Display the remaining time in real-time.
+Python 3.x
+Flask
+Installation
+Clone or download the project repository.
 
-## Technologies Used
-- **Backend**: Flask (Python)
-- **Frontend**: HTML, CSS, JavaScript
-- **Concurrency**: Python's `threading` library for timer countdown
-- **API**: Flask routes for starting, stopping, and fetching the timer status
+Navigate to the project directory:
 
-## Setup Instructions
-
-### Prerequisites
-
-- Python 3.x
-- Flask
-
-# Navigate to the project directory:
+bash
+Copy
+Edit
 cd CountDown_Timer
+Install the required Python dependencies:
 
-# Install the necessary Python dependencies:
+bash
+Copy
+Edit
 pip install flask
+Run the Flask application:
 
-# Run the Flask app:
+bash
+Copy
+Edit
 python app.py
+Open your web browser and visit:
 
-# Open your browser and visit:
-# http://127.0.0.1:5000/ to use the timer application.
+cpp
+Copy
+Edit
+http://127.0.0.1:5000/
+You can now use the countdown timer application.
