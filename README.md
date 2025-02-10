@@ -6,7 +6,8 @@ Set the timer duration in seconds.
 Start the countdown timer.
 Stop the countdown timer at any time.
 Display the remaining time in real-time.
-Technologies Used
+
+Technologies
 Backend: Flask (Python)
 Frontend: HTML, CSS, JavaScript
 Concurrency: Python's threading library for the countdown timer
@@ -18,30 +19,19 @@ Before you begin, ensure you have the following installed:
 Python 3.x
 Flask
 Installation
-Clone or download the project repository.
 
 Navigate to the project directory:
 
-bash
-Copy
-Edit
 cd CountDown_Timer
+
 Install the required Python dependencies:
 
-bash
-Copy
-Edit
 pip install flask
+
 Run the Flask application:
 
-bash
-Copy
-Edit
 python app.py
 Open your web browser and visit:
 
-cpp
-Copy
-Edit
 http://127.0.0.1:5000/
 You can now use the countdown timer application.
